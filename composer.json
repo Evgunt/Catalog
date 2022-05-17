@@ -1,0 +1,26 @@
+{
+    "name": "evgunt/catalog",
+    "description": "Module for working with catalog and items ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgunt",
+            "email": "Evgunt@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "Illuminate\\Database": "^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Catalog\\": "src/"
+        },
+        "files": [
+            "src/Catalog.php"
+        ]
+    }
+}
+
